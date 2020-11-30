@@ -1,4 +1,4 @@
-function init() {
+function init(){
 //add your javascrip between these two lines of code
   document.getElementById("entrybutton").addEventListener("click", f1); 
   function f1() {
