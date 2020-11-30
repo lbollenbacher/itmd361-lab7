@@ -8,5 +8,5 @@ function init(){
     document.getElementById("textoutput").innerHTML = input;
     alert(selectmyname + ":" + input);
   }
-window.addEventListener('load', init);
+  window.addEventListener('load', init);
 }
