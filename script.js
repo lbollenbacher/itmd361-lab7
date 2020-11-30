@@ -6,6 +6,7 @@ function init(){
     var selectmyname = narrowselectors.item(0).innerHTML;
     var input = document.getElementById("entryinput").value;
     document.getElementById("textoutput").value = input;
+    alert(selectmyname + ":" + input);
   }
 window.addEventListener('load', init);
 }
